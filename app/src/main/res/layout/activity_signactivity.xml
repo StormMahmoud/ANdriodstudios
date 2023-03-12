@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/Signuplol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:text="Signup" />
+
+    <EditText
+        android:id="@+id/emailol"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:hint="email"
+        android:autofillHints="emailAddress"
+        />
+
+    <EditText
+        android:id="@+id/passwordlol"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="password"
+        android:autofillHints="password"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/namelol"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Name"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/submitlol"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="submit"
+        android:background="@drawable/button_design"/>
+
+</LinearLayout>

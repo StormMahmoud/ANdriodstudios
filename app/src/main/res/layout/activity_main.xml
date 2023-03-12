@@ -9,39 +9,53 @@
     android:gravity="center"
     tools:context="MainActivity">
 
-<TextView
-        android:id="@+id/Signin"
+    <TextView
+        android:id="@+id/signin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="30sp"
-        android:text="Signin">
-
-</TextView>
+        android:text="Sign in"/>
     <EditText
         android:id="@+id/email"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:autofillHints="emailAddress"
         android:gravity="center"
-        android:hint="email"
-        android:inputType="text"></EditText>
+        android:hint="Email"
+        android:inputType="text"
+        android:background="@drawable/button_design"/>
     <EditText
         android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="48dp"
         android:gravity="center"
-        android:hint="password"
-        android:inputType="text"></EditText>
-<Button
-    android:id="@+id/Signinb"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Sign in"></Button>
+        android:hint="Password"
+        android:autofillHints="password"
+        android:inputType="text"
+        android:background="@drawable/button_design"/>
+    <Button
+        android:id="@+id/signinb"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:background="@drawable/button_design"
+        android:textColor="@color/orange"/>
     <Button
         android:id="@+id/signup"
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:text="sign up"></Button>
+        android:text="sign up"
+        android:background="@drawable/button_design"
+        android:textColor="@color/orange"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:background="@drawable/button_design"
+        android:textColor="@color/orange"/>
+
 </LinearLayout>
 
 
